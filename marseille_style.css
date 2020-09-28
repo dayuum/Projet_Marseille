@@ -1,0 +1,91 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap" rel="stylesheet">
+
+body{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer{
+    height: 258px;
+   
+    background-color: #C4C4C4;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.footernavlinks{
+    position: absolute;
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: center;
+    padding-left: 15px;
+    line-height: 46px;
+    border-right: 1px solid black;
+    padding-right: 35px;
+}
+
+.social{
+    position: absolute;
+    left: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+.socialicons li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.socialicons {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.copyright{
+    margin-left: -15px;
+    margin-top: 63px;
+}
+
+.footerinfos{
+    list-style-type: none;
+    padding: 0px;
+}
+
+i {
+    padding-right: 20px;
+}
+
+.contactez {
+    position: absolute;
+    left: 480px;
+    top: 25px;
+    padding: 0px;
+    line-height: 35px;
+}
+
+#infos {
+    padding-left: 35px;
+}
+
+.map {
+    position: absolute;
+    left: 800px;
+    top: 22px;
+}
+
+.icons{
+    list-style-type: none;
+}
+
+
+
+
+
+
