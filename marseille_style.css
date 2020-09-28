@@ -8,8 +8,9 @@ body{
 }
 
 .footer{
+    display: flex;
+    flex-direction: row;
     height: 258px;
-   
     background-color: #C4C4C4;
     padding: 0px;
     margin: 0px;
@@ -17,23 +18,26 @@ body{
 
 
 .footernavlinks{
-    position: absolute;
+    display: flex;
     list-style-type: none;
-    margin-top: 25px;
+    padding-top: 25px; 
     text-align: center;
-    padding-left: 15px;
+    padding-left: 35px;
     line-height: 46px;
     border-right: 1px solid black;
-    padding-right: 35px;
-}
+    padding-right: 35px; 
+    width: 65px;
+    }
 
 .social{
-    position: absolute;
-    left: 150px;
+    display: flex;
+    /* left: 150px; */
     display: inline-block;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     border-right: 1px solid black;
-    padding-right: 15px;
+    /* padding-right: 15px; */
+    /* margin-left: 170px; */
+    
 }
 
 .socialicons li{
